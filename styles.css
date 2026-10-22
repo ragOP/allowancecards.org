@@ -211,9 +211,11 @@ body {
   100% { box-shadow: 0 0 5px #34c759, 0 0 10px #34c759; }
 }
 @media (max-width: 768px) {
-  .alc-ribbon { padding: 1.25rem 1rem; text-align: left; }
+  .alc-ribbon { padding: 1.25rem 1rem; text-align: center; }
   .alc-headline { font-size: 1.5rem; line-height: 1.2; }
   .alc-paragraph { font-size: 1.2rem; line-height: 1.7rem; }
   .alc-query, .alc-button { font-size: 1.35rem; line-height: 1.4; }
+  .alc-query { text-align: center; }
+  .alc-end, .alc-links { text-align: center; }
   .alc-action { font-size: 1.25rem; line-height: 1.6rem; }
 }
